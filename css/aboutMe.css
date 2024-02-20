@@ -1,0 +1,54 @@
+.aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  max-width: 1600px;
+}
+.aboutMe_img {
+  width: 650px;
+  margin: 0 auto;
+}
+.aboutMe_img img {
+  max-width: 100%;
+}
+.aboutMe_content {
+  width: 550px;
+}
+.aboutMe_title {
+  text-transform: capitalize;
+  font-size: 45px;
+  margin: 10px;
+}
+.aboutMe_subtitle {
+  margin: 10px;
+}
+.aboutMe_text {
+  margin: 10px;
+}
+@media (max-width: 1440px) {
+  .aboutMe_img {
+    width: 550px;
+  }
+}
+@media (max-width: 768px) {
+  .aboutMe {
+    flex-wrap: wrap;
+  }
+  .aboutMe_img {
+    margin: 20px auto;
+  }
+  .aboutMe_content {
+    margin: 0 auto;
+  }
+}
+
+/*MOVIL GRANDE*/
+@media (max-width: 425px) {
+  .aboutMe {
+    flex-wrap: wrap;
+  }
+  .aboutMe_img {
+    width: 350px;
+  }
+}

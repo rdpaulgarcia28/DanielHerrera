@@ -1,0 +1,45 @@
+.partnerships {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  height: 50vh;
+  max-width: 1600px;
+}
+.partnerships_title {
+  text-align: center;
+  width: 100%;
+}
+.partnerships_text {
+  width: 100%;
+  margin: 10px 0;
+  text-align: justify;
+  margin-top: 20px;
+}
+.swiper_partherships {
+  width: 100%;
+  height: 200px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+.swiper-slide img {
+  max-width: 100%;
+}
+@media (max-width: 1440px) {
+  .partnerships_title {
+    width: 90%;
+  }
+  .partnerships_text {
+    width: 70%;
+  }
+}
+
+/*MOVIL GRANDE*/
+@media (max-width: 425px) {
+  .swiper_partherships {
+    width: 300px;
+  }
+}
