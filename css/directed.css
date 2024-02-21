@@ -38,12 +38,10 @@
   padding: 15px;
 }
 .directed_item:hover {
-  background-color: white;
+  border: solid black;
+  background-color: rgba(0, 0, 0, 0.452);
 }
-.directed_item:hover > p {
-  color: black;
-  opacity: 1;
-}
+
 /*MOVIL GRANDE*/
 @media (max-width: 425px) {
   .directed_item {
