@@ -1,19 +1,39 @@
 /*===================== FONTS ======================*/
 @font-face {
   font-family: "Syne-ExtraBold";
-  src: url(../assets/fonts/Syne-ExtraBold.ttf);
+  src: url(../assets/fonts/Syne/Syne-ExtraBold.ttf);
 }
 @font-face {
   font-family: "Syne-Bold";
-  src: url(../assets/fonts/Syne-Bold.ttf);
+  src: url(../assets/fonts/Syne/Syne-Bold.ttf);
 }
 @font-face {
   font-family: "Syne-Regular";
-  src: url(../assets/fonts/Syne-Regular.ttf);
+  src: url(../assets/fonts/Syne/Syne-Regular.ttf);
 }
 @font-face {
   font-family: "Syne-VariableFont_wght";
-  src: url(../assets/fonts/Syne-VariableFont_wght.ttf);
+  src: url(../assets/fonts/Syne/Syne-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url(../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../assets/fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(../assets/fonts/Montserrat/static/Montserrat-Thin.ttf);
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url(../assets/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../assets/fonts/Poppins/Poppins-Bold.ttf);
 }
 
 /*===================== VARIABLES ======================*/
@@ -22,10 +42,10 @@
   --color-secuendario: #ffffff;
   /*--color-degradado: linear-gradient(to left, #6fb1fc, #4364f7, #0052d4);*/
   --Tipografia-buttons: "Syne-Bold";
-  --Tipografia-title: "Syne-ExtraBold";
-  --Tipografia-text: "Syne-Regular";
+  --Tipografia-title: "Poppins-ExtraBold";
+  --Tipografia-text: "Montserrat-Thin";
   --Tipografia-Color: white;
-  --Tipografia-subtitulo: "Syne-Bold";
+  --Tipografia-subtitulo: "Poppins-Bold";
 }
 
 html {
@@ -71,7 +91,7 @@ h6 {
 h1 {
   font-family: var(--Tipografia-title);
   text-transform: capitalize;
-  font-size: 45px;
+  font-size: 65px;
   color: var(--Tipografia-Color);
 }
 h2 {
@@ -89,7 +109,6 @@ p {
   font-size: 16px;
   font-family: var(--Tipografia-text);
   color: var(--Tipografia-Color);
-  opacity: 0.6;
 }
 
 span {
@@ -110,7 +129,6 @@ li {
   list-style: none;
   font-size: 16px;
   color: var(--Tipografia-Color);
-  opacity: 0.6;
 }
 img {
   border-style: none;

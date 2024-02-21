@@ -7,6 +7,9 @@
   margin-bottom: 100px;
   max-width: 1900px;
   margin: 0 auto;
+  background-image: url(../assets/png/black-background-grunge.jpg);
+  background-attachment: fixed;
+  background-size: contain;
 }
 .directed_title {
   width: 90%;

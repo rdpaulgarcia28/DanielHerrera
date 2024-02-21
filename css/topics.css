@@ -6,6 +6,9 @@
   padding: 100px 0;
   margin: 100px auto;
   max-width: 1600px;
+  background-image: url(../assets/png/black-background-grunge.jpg);
+  background-attachment: fixed;
+  background-size: contain;
 }
 .topics_content {
   display: flex;
