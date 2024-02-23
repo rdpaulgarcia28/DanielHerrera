@@ -29,7 +29,6 @@
   border-radius: 5px;
   display: flex;
   align-items: center;
-  border: white solid 3px;
 }
 .directed_item p {
   text-align: justify;
